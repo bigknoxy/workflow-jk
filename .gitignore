@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.next/
+.env
+.env.*
+*.tsbuildinfo
+coverage/
+.turbo/
+pgdata/
+temporal-pgdata/
+.DS_Store
+!.env.example

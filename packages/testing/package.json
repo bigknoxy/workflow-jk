@@ -1,0 +1,28 @@
+{
+  "name": "@workflow-jk/testing",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@workflow-jk/contracts": "workspace:*",
+    "@workflow-jk/domain": "workspace:*",
+    "@workflow-jk/adapters": "workspace:*",
+    "@workflow-jk/application": "workspace:*",
+    "@workflow-jk/orchestration": "workspace:*",
+    "@workflow-jk/config": "workspace:*"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.0"
+  }
+}

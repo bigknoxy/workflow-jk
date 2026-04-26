@@ -1,0 +1,22 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "paths": {
+      "@workflow-jk/config": ["../config/dist"],
+      "@workflow-jk/orchestration": ["../orchestration/dist"],
+      "@workflow-jk/observability": ["../observability/dist"],
+      "@workflow-jk/agents": ["../agents/dist"]
+    }
+  },
+  "include": ["src"],
+  "references": [
+    { "path": "../contracts" },
+    { "path": "../domain" },
+    { "path": "../adapters" },
+    { "path": "../observability" },
+    { "path": "../config" },
+    { "path": "../orchestration" }
+  ]
+}

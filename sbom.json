@@ -1,0 +1,338 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "metadata": {
+    "timestamp": "2026-04-23T06:57:28.972Z",
+    "tool": {
+      "vendor": "Workflow-JK",
+      "name": "generate-sbom.ts",
+      "version": "0.1.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "turbo",
+      "version": "^2.3.0",
+      "purl": "pkg:npm/turbo@2.3.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5.7.0",
+      "purl": "pkg:npm/typescript@5.7.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5.3.0",
+      "purl": "pkg:npm/typescript@5.3.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5.7.2",
+      "purl": "pkg:npm/typescript@5.7.2"
+    },
+    {
+      "type": "library",
+      "name": "tsx",
+      "version": "^4.19.0",
+      "purl": "pkg:npm/tsx@4.19.0"
+    },
+    {
+      "type": "library",
+      "name": "vitest",
+      "version": "^2.1.0",
+      "purl": "pkg:npm/vitest@2.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^22.10.0",
+      "purl": "pkg:npm/@types/node@22.10.0"
+    },
+    {
+      "type": "library",
+      "name": "@eslint/js",
+      "version": "^9.16.0",
+      "purl": "pkg:npm/@eslint/js@9.16.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "^9.16.0",
+      "purl": "pkg:npm/eslint@9.16.0"
+    },
+    {
+      "type": "library",
+      "name": "@typescript-eslint/eslint-plugin",
+      "version": "^8.18.0",
+      "purl": "pkg:npm/@typescript-eslint/eslint-plugin@8.18.0"
+    },
+    {
+      "type": "library",
+      "name": "@typescript-eslint/parser",
+      "version": "^8.18.0",
+      "purl": "pkg:npm/@typescript-eslint/parser@8.18.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript-eslint",
+      "version": "^8.18.0",
+      "purl": "pkg:npm/typescript-eslint@8.18.0"
+    },
+    {
+      "type": "library",
+      "name": "@opencode-ai/plugin",
+      "version": "1.14.20",
+      "purl": "pkg:npm/@opencode-ai/plugin@1.14.20"
+    },
+    {
+      "type": "library",
+      "name": "@fastify/cors",
+      "version": "^10.0.0",
+      "purl": "pkg:npm/@fastify/cors@10.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@fastify/helmet",
+      "version": "^13.0.2",
+      "purl": "pkg:npm/@fastify/helmet@13.0.2"
+    },
+    {
+      "type": "library",
+      "name": "@fastify/rate-limit",
+      "version": "^10.3.0",
+      "purl": "pkg:npm/@fastify/rate-limit@10.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@workflow-jk/adapters",
+      "version": "workspace:*",
+      "purl": "pkg:npm/@workflow-jk/adapters@workspace:*"
+    },
+    {
+      "type": "library",
+      "name": "@workflow-jk/application",
+      "version": "workspace:*",
+      "purl": "pkg:npm/@workflow-jk/application@workspace:*"
+    },
+    {
+      "type": "library",
+      "name": "@workflow-jk/config",
+      "version": "workspace:*",
+      "purl": "pkg:npm/@workflow-jk/config@workspace:*"
+    },
+    {
+      "type": "library",
+      "name": "@workflow-jk/contracts",
+      "version": "workspace:*",
+      "purl": "pkg:npm/@workflow-jk/contracts@workspace:*"
+    },
+    {
+      "type": "library",
+      "name": "@workflow-jk/domain",
+      "version": "workspace:*",
+      "purl": "pkg:npm/@workflow-jk/domain@workspace:*"
+    },
+    {
+      "type": "library",
+      "name": "@workflow-jk/observability",
+      "version": "workspace:*",
+      "purl": "pkg:npm/@workflow-jk/observability@workspace:*"
+    },
+    {
+      "type": "library",
+      "name": "@workflow-jk/orchestration",
+      "version": "workspace:*",
+      "purl": "pkg:npm/@workflow-jk/orchestration@workspace:*"
+    },
+    {
+      "type": "library",
+      "name": "@workflow-jk/testing",
+      "version": "workspace:*",
+      "purl": "pkg:npm/@workflow-jk/testing@workspace:*"
+    },
+    {
+      "type": "library",
+      "name": "fastify",
+      "version": "^5.1.0",
+      "purl": "pkg:npm/fastify@5.1.0"
+    },
+    {
+      "type": "library",
+      "name": "uuid",
+      "version": "^10.0.0",
+      "purl": "pkg:npm/uuid@10.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/uuid",
+      "version": "^10.0.0",
+      "purl": "pkg:npm/@types/uuid@10.0.0"
+    },
+    {
+      "type": "library",
+      "name": "next",
+      "version": "^15.1.0",
+      "purl": "pkg:npm/next@15.1.0"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "^19.0.0",
+      "purl": "pkg:npm/react@19.0.0"
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "^19.0.0",
+      "purl": "pkg:npm/react-dom@19.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/react",
+      "version": "^19.0.0",
+      "purl": "pkg:npm/@types/react@19.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/react-dom",
+      "version": "^19.0.0",
+      "purl": "pkg:npm/@types/react-dom@19.0.0"
+    },
+    {
+      "type": "library",
+      "name": "tailwindcss",
+      "version": "^4.0.0",
+      "purl": "pkg:npm/tailwindcss@4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@tailwindcss/postcss",
+      "version": "^4.0.0",
+      "purl": "pkg:npm/@tailwindcss/postcss@4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "postcss",
+      "version": "^8.4.0",
+      "purl": "pkg:npm/postcss@8.4.0"
+    },
+    {
+      "type": "library",
+      "name": "@temporalio/client",
+      "version": "^1.11.0",
+      "purl": "pkg:npm/@temporalio/client@1.11.0"
+    },
+    {
+      "type": "library",
+      "name": "pg",
+      "version": "^8.11.0",
+      "purl": "pkg:npm/pg@8.11.0"
+    },
+    {
+      "type": "library",
+      "name": "@workflow-jk/agents",
+      "version": "workspace:*",
+      "purl": "pkg:npm/@workflow-jk/agents@workspace:*"
+    },
+    {
+      "type": "library",
+      "name": "@temporalio/workflow",
+      "version": "^1.11.0",
+      "purl": "pkg:npm/@temporalio/workflow@1.11.0"
+    },
+    {
+      "type": "library",
+      "name": "@temporalio/common",
+      "version": "^1.11.0",
+      "purl": "pkg:npm/@temporalio/common@1.11.0"
+    },
+    {
+      "type": "library",
+      "name": "@temporalio/testing",
+      "version": "^1.11.0",
+      "purl": "pkg:npm/@temporalio/testing@1.11.0"
+    },
+    {
+      "type": "library",
+      "name": "zod",
+      "version": "^3.23.0",
+      "purl": "pkg:npm/zod@3.23.0"
+    },
+    {
+      "type": "library",
+      "name": "@opentelemetry/api",
+      "version": "^1.9.0",
+      "purl": "pkg:npm/@opentelemetry/api@1.9.0"
+    },
+    {
+      "type": "library",
+      "name": "@opentelemetry/exporter-prometheus",
+      "version": "^0.215.0",
+      "purl": "pkg:npm/@opentelemetry/exporter-prometheus@0.215.0"
+    },
+    {
+      "type": "library",
+      "name": "@opentelemetry/exporter-trace-otlp-http",
+      "version": "^0.54.0",
+      "purl": "pkg:npm/@opentelemetry/exporter-trace-otlp-http@0.54.0"
+    },
+    {
+      "type": "library",
+      "name": "@opentelemetry/instrumentation",
+      "version": "^0.54.0",
+      "purl": "pkg:npm/@opentelemetry/instrumentation@0.54.0"
+    },
+    {
+      "type": "library",
+      "name": "@opentelemetry/resources",
+      "version": "^1.28.0",
+      "purl": "pkg:npm/@opentelemetry/resources@1.28.0"
+    },
+    {
+      "type": "library",
+      "name": "@opentelemetry/sdk-metrics",
+      "version": "^2.7.0",
+      "purl": "pkg:npm/@opentelemetry/sdk-metrics@2.7.0"
+    },
+    {
+      "type": "library",
+      "name": "@opentelemetry/sdk-trace-base",
+      "version": "^1.28.0",
+      "purl": "pkg:npm/@opentelemetry/sdk-trace-base@1.28.0"
+    },
+    {
+      "type": "library",
+      "name": "@opentelemetry/sdk-trace-node",
+      "version": "^1.28.0",
+      "purl": "pkg:npm/@opentelemetry/sdk-trace-node@1.28.0"
+    },
+    {
+      "type": "library",
+      "name": "@opentelemetry/semantic-conventions",
+      "version": "^1.28.0",
+      "purl": "pkg:npm/@opentelemetry/semantic-conventions@1.28.0"
+    },
+    {
+      "type": "library",
+      "name": "drizzle-orm",
+      "version": "^0.39.0",
+      "purl": "pkg:npm/drizzle-orm@0.39.0"
+    },
+    {
+      "type": "library",
+      "name": "drizzle-kit",
+      "version": "^0.30.0",
+      "purl": "pkg:npm/drizzle-kit@0.30.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/pg",
+      "version": "^8.11.0",
+      "purl": "pkg:npm/@types/pg@8.11.0"
+    }
+  ]
+}

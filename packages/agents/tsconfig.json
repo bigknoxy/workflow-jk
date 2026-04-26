@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "paths": {
+      "@workflow-jk/observability": ["../observability/dist"]
+    }
+  },
+  "include": ["src"],
+  "references": [
+    { "path": "../contracts" },
+    { "path": "../domain" },
+    { "path": "../observability" },
+    { "path": "../adapters" }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@workflow-jk/evaluation",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rm -rf dist",
+    "test": "vitest run",
+    "eval": "bun run src/run-eval.ts"
+  },
+  "dependencies": {
+    "@workflow-jk/contracts": "workspace:*",
+    "@workflow-jk/agents": "workspace:*",
+    "@workflow-jk/adapters": "workspace:*",
+    "@workflow-jk/observability": "workspace:*",
+    "@workflow-jk/testing": "workspace:*",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.0"
+  }
+}

@@ -1,0 +1,2107 @@
+{
+  "runId": "eval-1776640834931",
+  "timestamp": "2026-04-19T23:20:34.931Z",
+  "totalCases": 26,
+  "passed": 22,
+  "failed": 0,
+  "partial": 4,
+  "averageScore": 0.9538461538461539,
+  "results": [
+    {
+      "caseId": "intake-001",
+      "caseName": "Vague idea produces structured brief",
+      "agentName": "IntakeAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "problemStatement": true,
+        "targetUsers": true,
+        "businessValue": true,
+        "keyFeatures": true,
+        "constraints": true,
+        "assumptions": true,
+        "outOfScope": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Problem statement is substantive",
+          "passed": true,
+          "evidence": "Field 'problemStatement' is a non-empty string",
+          "weight": 1
+        },
+        {
+          "description": "Target users is specific",
+          "passed": true,
+          "evidence": "Field 'targetUsers' is a non-empty string",
+          "weight": 1
+        },
+        {
+          "description": "Key features has at least 2 items",
+          "passed": true,
+          "evidence": "Field 'keyFeatures' has 3 items >= 2",
+          "weight": 0.8
+        },
+        {
+          "description": "Constraints list is non-empty",
+          "passed": true,
+          "evidence": "Field 'constraints' has 3 items",
+          "weight": 0.7
+        },
+        {
+          "description": "Out of scope is defined",
+          "passed": true,
+          "evidence": "Field 'outOfScope' has 2 items",
+          "weight": 0.5
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "problemStatement": "Teams need simple task tracking",
+        "targetUsers": "Small teams of 5-15 people",
+        "businessValue": "20% productivity improvement",
+        "keyFeatures": [
+          "Kanban boards",
+          "Real-time updates",
+          "Mobile-first design"
+        ],
+        "constraints": [
+          "Mobile-first",
+          "Budget under $50k",
+          "SSO integration"
+        ],
+        "assumptions": [
+          "5-15 person teams",
+          "Existing auth system"
+        ],
+        "outOfScope": [
+          "Advanced analytics",
+          "Time tracking"
+        ]
+      },
+      "durationMs": 4,
+      "timestamp": "2026-04-19T23:20:34.922Z"
+    },
+    {
+      "caseId": "intake-002",
+      "caseName": "Well-specified idea produces rich brief",
+      "agentName": "IntakeAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "problemStatement": true,
+        "targetUsers": true,
+        "businessValue": true,
+        "keyFeatures": true,
+        "constraints": true,
+        "assumptions": true,
+        "outOfScope": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Problem statement is substantive",
+          "passed": true,
+          "evidence": "Field 'problemStatement' is a non-empty string",
+          "weight": 1
+        },
+        {
+          "description": "Key features has at least 3 items",
+          "passed": true,
+          "evidence": "Field 'keyFeatures' has 3 items >= 3",
+          "weight": 1
+        },
+        {
+          "description": "Constraints preserved or expanded",
+          "passed": true,
+          "evidence": "Field 'constraints' has 3 items >= 3",
+          "weight": 1
+        },
+        {
+          "description": "Out of scope has items",
+          "passed": true,
+          "evidence": "Field 'outOfScope' has 2 items >= 1",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "problemStatement": "Teams need simple task tracking",
+        "targetUsers": "Small teams of 5-15 people",
+        "businessValue": "20% productivity improvement",
+        "keyFeatures": [
+          "Kanban boards",
+          "Real-time updates",
+          "Mobile-first design"
+        ],
+        "constraints": [
+          "Mobile-first",
+          "Budget under $50k",
+          "SSO integration"
+        ],
+        "assumptions": [
+          "5-15 person teams",
+          "Existing auth system"
+        ],
+        "outOfScope": [
+          "Advanced analytics",
+          "Time tracking"
+        ]
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.922Z"
+    },
+    {
+      "caseId": "intake-003",
+      "caseName": "Minimal input still produces valid brief",
+      "agentName": "IntakeAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "problemStatement": true,
+        "targetUsers": true,
+        "businessValue": true,
+        "keyFeatures": true,
+        "constraints": true,
+        "assumptions": true,
+        "outOfScope": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "All required fields present",
+          "passed": true,
+          "evidence": "Field 'problemStatement' is present",
+          "weight": 1
+        },
+        {
+          "description": "Key features non-empty",
+          "passed": true,
+          "evidence": "Field 'keyFeatures' has 3 items",
+          "weight": 1
+        },
+        {
+          "description": "Business value defined",
+          "passed": true,
+          "evidence": "Field 'businessValue' is a non-empty string",
+          "weight": 1
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "problemStatement": "Teams need simple task tracking",
+        "targetUsers": "Small teams of 5-15 people",
+        "businessValue": "20% productivity improvement",
+        "keyFeatures": [
+          "Kanban boards",
+          "Real-time updates",
+          "Mobile-first design"
+        ],
+        "constraints": [
+          "Mobile-first",
+          "Budget under $50k",
+          "SSO integration"
+        ],
+        "assumptions": [
+          "5-15 person teams",
+          "Existing auth system"
+        ],
+        "outOfScope": [
+          "Advanced analytics",
+          "Time tracking"
+        ]
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.922Z"
+    },
+    {
+      "caseId": "intake-004",
+      "caseName": "Technical project produces detailed constraints",
+      "agentName": "IntakeAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "problemStatement": true,
+        "targetUsers": true,
+        "businessValue": true,
+        "keyFeatures": true,
+        "constraints": true,
+        "assumptions": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Key features reflect technical nature",
+          "passed": true,
+          "evidence": "Field 'keyFeatures' has 3 items >= 3",
+          "weight": 1
+        },
+        {
+          "description": "Constraints preserved",
+          "passed": true,
+          "evidence": "Field 'constraints' has 3 items >= 3",
+          "weight": 1
+        },
+        {
+          "description": "Target users mentions technical users",
+          "passed": true,
+          "evidence": "Field 'targetUsers' is present",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "problemStatement": "Teams need simple task tracking",
+        "targetUsers": "Small teams of 5-15 people",
+        "businessValue": "20% productivity improvement",
+        "keyFeatures": [
+          "Kanban boards",
+          "Real-time updates",
+          "Mobile-first design"
+        ],
+        "constraints": [
+          "Mobile-first",
+          "Budget under $50k",
+          "SSO integration"
+        ],
+        "assumptions": [
+          "5-15 person teams",
+          "Existing auth system"
+        ],
+        "outOfScope": [
+          "Advanced analytics",
+          "Time tracking"
+        ]
+      },
+      "durationMs": 1,
+      "timestamp": "2026-04-19T23:20:34.923Z"
+    },
+    {
+      "caseId": "intake-005",
+      "caseName": "Enterprise project brief includes scalability concerns",
+      "agentName": "IntakeAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "problemStatement": true,
+        "targetUsers": true,
+        "businessValue": true,
+        "keyFeatures": true,
+        "constraints": true,
+        "assumptions": true,
+        "outOfScope": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Problem statement is substantive",
+          "passed": true,
+          "evidence": "Field 'problemStatement' is a non-empty string",
+          "weight": 1
+        },
+        {
+          "description": "Constraints include enterprise concerns",
+          "passed": true,
+          "evidence": "Field 'constraints' has 3 items >= 3",
+          "weight": 1
+        },
+        {
+          "description": "Key features comprehensive",
+          "passed": true,
+          "evidence": "Field 'keyFeatures' has 3 items >= 3",
+          "weight": 1
+        },
+        {
+          "description": "Out of scope defined",
+          "passed": true,
+          "evidence": "Field 'outOfScope' has 2 items",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "problemStatement": "Teams need simple task tracking",
+        "targetUsers": "Small teams of 5-15 people",
+        "businessValue": "20% productivity improvement",
+        "keyFeatures": [
+          "Kanban boards",
+          "Real-time updates",
+          "Mobile-first design"
+        ],
+        "constraints": [
+          "Mobile-first",
+          "Budget under $50k",
+          "SSO integration"
+        ],
+        "assumptions": [
+          "5-15 person teams",
+          "Existing auth system"
+        ],
+        "outOfScope": [
+          "Advanced analytics",
+          "Time tracking"
+        ]
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.923Z"
+    },
+    {
+      "caseId": "intake-006",
+      "caseName": "Consumer app brief captures user experience focus",
+      "agentName": "IntakeAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "problemStatement": true,
+        "targetUsers": true,
+        "businessValue": true,
+        "keyFeatures": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Problem statement is substantive",
+          "passed": true,
+          "evidence": "Field 'problemStatement' is a non-empty string",
+          "weight": 1
+        },
+        {
+          "description": "Target users mentions consumers",
+          "passed": true,
+          "evidence": "Field 'targetUsers' is present",
+          "weight": 1
+        },
+        {
+          "description": "Key features include social features",
+          "passed": true,
+          "evidence": "Field 'keyFeatures' has 3 items >= 3",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "problemStatement": "Teams need simple task tracking",
+        "targetUsers": "Small teams of 5-15 people",
+        "businessValue": "20% productivity improvement",
+        "keyFeatures": [
+          "Kanban boards",
+          "Real-time updates",
+          "Mobile-first design"
+        ],
+        "constraints": [
+          "Mobile-first",
+          "Budget under $50k",
+          "SSO integration"
+        ],
+        "assumptions": [
+          "5-15 person teams",
+          "Existing auth system"
+        ],
+        "outOfScope": [
+          "Advanced analytics",
+          "Time tracking"
+        ]
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.923Z"
+    },
+    {
+      "caseId": "critic-001",
+      "caseName": "Standard brief produces quality critique",
+      "agentName": "RequirementsCriticAgent",
+      "grade": "partial",
+      "score": 0.7,
+      "requiredFieldsPresent": {
+        "clarificationQuestions": true,
+        "identifiedRisks": true,
+        "missingConstraints": true,
+        "assumptions": true,
+        "draftAcceptanceCriteria": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Clarification questions present",
+          "passed": true,
+          "evidence": "Field 'clarificationQuestions' has 2 items",
+          "weight": 1
+        },
+        {
+          "description": "At least 2 clarification questions",
+          "passed": true,
+          "evidence": "Field 'clarificationQuestions' has 2 items >= 2",
+          "weight": 0.8
+        },
+        {
+          "description": "Risks identified",
+          "passed": true,
+          "evidence": "Field 'identifiedRisks' has 1 items",
+          "weight": 1
+        },
+        {
+          "description": "Draft acceptance criteria present",
+          "passed": true,
+          "evidence": "Field 'draftAcceptanceCriteria' has 1 items",
+          "weight": 1
+        },
+        {
+          "description": "Each question has id and category",
+          "passed": false,
+          "evidence": "Field 'id_clarificationQuestions' is not an array",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "clarificationQuestions": [
+          {
+            "id": "q1",
+            "question": "What SSO provider?",
+            "category": "missing_constraint"
+          },
+          {
+            "id": "q2",
+            "question": "Offline scope?",
+            "category": "ambiguity"
+          }
+        ],
+        "identifiedRisks": [
+          {
+            "id": "r1",
+            "description": "Offline sync complexity",
+            "severity": "medium",
+            "mitigation": "Use CRDTs"
+          }
+        ],
+        "missingConstraints": [
+          "SSO provider",
+          "Offline data scope"
+        ],
+        "assumptions": [
+          {
+            "id": "a1",
+            "assumption": "WebSocket for real-time",
+            "confidence": "medium"
+          }
+        ],
+        "draftAcceptanceCriteria": [
+          {
+            "id": "ac1",
+            "criterion": "Users can create boards",
+            "category": "functional"
+          }
+        ]
+      },
+      "durationMs": 1,
+      "timestamp": "2026-04-19T23:20:34.924Z"
+    },
+    {
+      "caseId": "critic-002",
+      "caseName": "Detailed brief identifies specific technical gaps",
+      "agentName": "RequirementsCriticAgent",
+      "grade": "partial",
+      "score": 0.7,
+      "requiredFieldsPresent": {
+        "clarificationQuestions": true,
+        "identifiedRisks": true,
+        "missingConstraints": true,
+        "assumptions": true,
+        "draftAcceptanceCriteria": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Clarification questions present",
+          "passed": true,
+          "evidence": "Field 'clarificationQuestions' has 2 items",
+          "weight": 1
+        },
+        {
+          "description": "Risks identified with severity",
+          "passed": true,
+          "evidence": "Field 'identifiedRisks' has 1 items",
+          "weight": 1
+        },
+        {
+          "description": "Draft ACs have multiple items",
+          "passed": false,
+          "evidence": "Field 'draftAcceptanceCriteria' has 1 items < 2",
+          "weight": 1
+        },
+        {
+          "description": "Each risk has id and severity",
+          "passed": false,
+          "evidence": "Field 'id_identifiedRisks' is not an array",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "clarificationQuestions": [
+          {
+            "id": "q1",
+            "question": "What SSO provider?",
+            "category": "missing_constraint"
+          },
+          {
+            "id": "q2",
+            "question": "Offline scope?",
+            "category": "ambiguity"
+          }
+        ],
+        "identifiedRisks": [
+          {
+            "id": "r1",
+            "description": "Offline sync complexity",
+            "severity": "medium",
+            "mitigation": "Use CRDTs"
+          }
+        ],
+        "missingConstraints": [
+          "SSO provider",
+          "Offline data scope"
+        ],
+        "assumptions": [
+          {
+            "id": "a1",
+            "assumption": "WebSocket for real-time",
+            "confidence": "medium"
+          }
+        ],
+        "draftAcceptanceCriteria": [
+          {
+            "id": "ac1",
+            "criterion": "Users can create boards",
+            "category": "functional"
+          }
+        ]
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.925Z"
+    },
+    {
+      "caseId": "critic-003",
+      "caseName": "Vague brief surfaces ambiguity questions",
+      "agentName": "RequirementsCriticAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "clarificationQuestions": true,
+        "identifiedRisks": true,
+        "missingConstraints": true,
+        "assumptions": true,
+        "draftAcceptanceCriteria": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Questions probe vagueness",
+          "passed": true,
+          "evidence": "Field 'clarificationQuestions' has 2 items >= 2",
+          "weight": 1
+        },
+        {
+          "description": "Missing constraints identified",
+          "passed": true,
+          "evidence": "Field 'missingConstraints' has 2 items",
+          "weight": 1
+        },
+        {
+          "description": "Draft ACs present",
+          "passed": true,
+          "evidence": "Field 'draftAcceptanceCriteria' has 1 items",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "clarificationQuestions": [
+          {
+            "id": "q1",
+            "question": "What SSO provider?",
+            "category": "missing_constraint"
+          },
+          {
+            "id": "q2",
+            "question": "Offline scope?",
+            "category": "ambiguity"
+          }
+        ],
+        "identifiedRisks": [
+          {
+            "id": "r1",
+            "description": "Offline sync complexity",
+            "severity": "medium",
+            "mitigation": "Use CRDTs"
+          }
+        ],
+        "missingConstraints": [
+          "SSO provider",
+          "Offline data scope"
+        ],
+        "assumptions": [
+          {
+            "id": "a1",
+            "assumption": "WebSocket for real-time",
+            "confidence": "medium"
+          }
+        ],
+        "draftAcceptanceCriteria": [
+          {
+            "id": "ac1",
+            "criterion": "Users can create boards",
+            "category": "functional"
+          }
+        ]
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.925Z"
+    },
+    {
+      "caseId": "critic-004",
+      "caseName": "Brief with contradictions flags risk",
+      "agentName": "RequirementsCriticAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "clarificationQuestions": true,
+        "identifiedRisks": true,
+        "missingConstraints": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Risks identified",
+          "passed": true,
+          "evidence": "Field 'identifiedRisks' has 1 items",
+          "weight": 1
+        },
+        {
+          "description": "Questions address contradictions",
+          "passed": true,
+          "evidence": "Field 'clarificationQuestions' has 2 items >= 2",
+          "weight": 0.8
+        },
+        {
+          "description": "Missing constraints noted",
+          "passed": true,
+          "evidence": "Field 'missingConstraints' has 2 items",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "clarificationQuestions": [
+          {
+            "id": "q1",
+            "question": "What SSO provider?",
+            "category": "missing_constraint"
+          },
+          {
+            "id": "q2",
+            "question": "Offline scope?",
+            "category": "ambiguity"
+          }
+        ],
+        "identifiedRisks": [
+          {
+            "id": "r1",
+            "description": "Offline sync complexity",
+            "severity": "medium",
+            "mitigation": "Use CRDTs"
+          }
+        ],
+        "missingConstraints": [
+          "SSO provider",
+          "Offline data scope"
+        ],
+        "assumptions": [
+          {
+            "id": "a1",
+            "assumption": "WebSocket for real-time",
+            "confidence": "medium"
+          }
+        ],
+        "draftAcceptanceCriteria": [
+          {
+            "id": "ac1",
+            "criterion": "Users can create boards",
+            "category": "functional"
+          }
+        ]
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.925Z"
+    },
+    {
+      "caseId": "critic-005",
+      "caseName": "Enterprise brief identifies compliance gaps",
+      "agentName": "RequirementsCriticAgent",
+      "grade": "partial",
+      "score": 0.7,
+      "requiredFieldsPresent": {
+        "clarificationQuestions": true,
+        "identifiedRisks": true,
+        "missingConstraints": true,
+        "draftAcceptanceCriteria": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Risks address enterprise concerns",
+          "passed": true,
+          "evidence": "Field 'identifiedRisks' has 1 items",
+          "weight": 1
+        },
+        {
+          "description": "Multiple clarification questions",
+          "passed": true,
+          "evidence": "Field 'clarificationQuestions' has 2 items >= 2",
+          "weight": 1
+        },
+        {
+          "description": "Draft ACs are substantive",
+          "passed": false,
+          "evidence": "Field 'draftAcceptanceCriteria' has 1 items < 2",
+          "weight": 0.8
+        },
+        {
+          "description": "Assumptions documented with confidence",
+          "passed": false,
+          "evidence": "Field 'id_assumptions' is not an array",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "clarificationQuestions": [
+          {
+            "id": "q1",
+            "question": "What SSO provider?",
+            "category": "missing_constraint"
+          },
+          {
+            "id": "q2",
+            "question": "Offline scope?",
+            "category": "ambiguity"
+          }
+        ],
+        "identifiedRisks": [
+          {
+            "id": "r1",
+            "description": "Offline sync complexity",
+            "severity": "medium",
+            "mitigation": "Use CRDTs"
+          }
+        ],
+        "missingConstraints": [
+          "SSO provider",
+          "Offline data scope"
+        ],
+        "assumptions": [
+          {
+            "id": "a1",
+            "assumption": "WebSocket for real-time",
+            "confidence": "medium"
+          }
+        ],
+        "draftAcceptanceCriteria": [
+          {
+            "id": "ac1",
+            "criterion": "Users can create boards",
+            "category": "functional"
+          }
+        ]
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.925Z"
+    },
+    {
+      "caseId": "architect-001",
+      "caseName": "Standard requirements produce complete architecture",
+      "agentName": "ArchitectAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "architecture": true,
+        "implementationPlan": true,
+        "taskGraph": true,
+        "testStrategy": true,
+        "repoImpactMap": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Architecture has overview",
+          "passed": true,
+          "evidence": "Field 'architecture' is present",
+          "weight": 1
+        },
+        {
+          "description": "Architecture has decisions",
+          "passed": true,
+          "evidence": "Custom check: custom:check_nested_array_length_architecture_decisions_gte_2 (auto-passed)",
+          "weight": 0.8
+        },
+        {
+          "description": "Architecture has components",
+          "passed": true,
+          "evidence": "Field 'architecture' is present",
+          "weight": 0.8
+        },
+        {
+          "description": "Task graph has tasks",
+          "passed": true,
+          "evidence": "Field 'taskGraph' is present",
+          "weight": 1
+        },
+        {
+          "description": "Test strategy defined",
+          "passed": true,
+          "evidence": "Field 'testStrategy' is present",
+          "weight": 1
+        },
+        {
+          "description": "Repo impact map defined",
+          "passed": true,
+          "evidence": "Field 'repoImpactMap' is present",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "architecture": {
+          "overview": "React/TypeScript frontend, Node.js backend",
+          "decisions": [
+            {
+              "id": "ad1",
+              "decision": "React frontend",
+              "rationale": "Team expertise",
+              "alternatives": [
+                "Vue"
+              ]
+            }
+          ],
+          "components": [
+            {
+              "name": "API",
+              "responsibility": "REST API",
+              "dependencies": [
+                "DB"
+              ]
+            }
+          ],
+          "dataFlow": "Client → API → DB"
+        },
+        "implementationPlan": {
+          "phases": [
+            {
+              "name": "Foundation",
+              "tasks": [
+                "Setup",
+                "Auth"
+              ],
+              "estimatedEffort": "3 days"
+            }
+          ]
+        },
+        "taskGraph": {
+          "tasks": [
+            {
+              "id": "t1",
+              "title": "Setup",
+              "description": "Project setup",
+              "dependencies": [],
+              "estimatedEffort": "1 day",
+              "phase": "setup"
+            },
+            {
+              "id": "t2",
+              "title": "Core",
+              "description": "Core features",
+              "dependencies": [
+                "t1"
+              ],
+              "estimatedEffort": "3 days",
+              "phase": "core"
+            }
+          ]
+        },
+        "testStrategy": {
+          "approach": "Test pyramid",
+          "levels": [
+            {
+              "level": "unit",
+              "description": "Unit tests",
+              "coverage": "80%"
+            }
+          ],
+          "environments": [
+            "dev",
+            "staging"
+          ]
+        },
+        "repoImpactMap": {
+          "impacts": [
+            {
+              "path": "/src",
+              "changeType": "create",
+              "description": "New project"
+            }
+          ]
+        }
+      },
+      "durationMs": 1,
+      "timestamp": "2026-04-19T23:20:34.926Z"
+    },
+    {
+      "caseId": "architect-002",
+      "caseName": "Architecture contains data flow description",
+      "agentName": "ArchitectAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "architecture": true,
+        "implementationPlan": true,
+        "taskGraph": true,
+        "testStrategy": true,
+        "repoImpactMap": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Architecture overview is substantive",
+          "passed": true,
+          "evidence": "Field 'architecture' is present",
+          "weight": 1
+        },
+        {
+          "description": "Data flow described",
+          "passed": true,
+          "evidence": "Custom check: custom:check_architecture_dataFlow (auto-passed)",
+          "weight": 0.8
+        },
+        {
+          "description": "Implementation phases defined",
+          "passed": true,
+          "evidence": "Field 'implementationPlan' is present",
+          "weight": 1
+        },
+        {
+          "description": "Test environments specified",
+          "passed": true,
+          "evidence": "Field 'testStrategy' is present",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "architecture": {
+          "overview": "React/TypeScript frontend, Node.js backend",
+          "decisions": [
+            {
+              "id": "ad1",
+              "decision": "React frontend",
+              "rationale": "Team expertise",
+              "alternatives": [
+                "Vue"
+              ]
+            }
+          ],
+          "components": [
+            {
+              "name": "API",
+              "responsibility": "REST API",
+              "dependencies": [
+                "DB"
+              ]
+            }
+          ],
+          "dataFlow": "Client → API → DB"
+        },
+        "implementationPlan": {
+          "phases": [
+            {
+              "name": "Foundation",
+              "tasks": [
+                "Setup",
+                "Auth"
+              ],
+              "estimatedEffort": "3 days"
+            }
+          ]
+        },
+        "taskGraph": {
+          "tasks": [
+            {
+              "id": "t1",
+              "title": "Setup",
+              "description": "Project setup",
+              "dependencies": [],
+              "estimatedEffort": "1 day",
+              "phase": "setup"
+            },
+            {
+              "id": "t2",
+              "title": "Core",
+              "description": "Core features",
+              "dependencies": [
+                "t1"
+              ],
+              "estimatedEffort": "3 days",
+              "phase": "core"
+            }
+          ]
+        },
+        "testStrategy": {
+          "approach": "Test pyramid",
+          "levels": [
+            {
+              "level": "unit",
+              "description": "Unit tests",
+              "coverage": "80%"
+            }
+          ],
+          "environments": [
+            "dev",
+            "staging"
+          ]
+        },
+        "repoImpactMap": {
+          "impacts": [
+            {
+              "path": "/src",
+              "changeType": "create",
+              "description": "New project"
+            }
+          ]
+        }
+      },
+      "durationMs": 1,
+      "timestamp": "2026-04-19T23:20:34.927Z"
+    },
+    {
+      "caseId": "architect-003",
+      "caseName": "Architecture decisions include alternatives",
+      "agentName": "ArchitectAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "architecture": true,
+        "implementationPlan": true,
+        "taskGraph": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Architecture decisions present",
+          "passed": true,
+          "evidence": "Field 'architecture' is present",
+          "weight": 1
+        },
+        {
+          "description": "Task graph has tasks",
+          "passed": true,
+          "evidence": "Field 'taskGraph' is present",
+          "weight": 1
+        },
+        {
+          "description": "Implementation plan defined",
+          "passed": true,
+          "evidence": "Field 'implementationPlan' is present",
+          "weight": 1
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "architecture": {
+          "overview": "React/TypeScript frontend, Node.js backend",
+          "decisions": [
+            {
+              "id": "ad1",
+              "decision": "React frontend",
+              "rationale": "Team expertise",
+              "alternatives": [
+                "Vue"
+              ]
+            }
+          ],
+          "components": [
+            {
+              "name": "API",
+              "responsibility": "REST API",
+              "dependencies": [
+                "DB"
+              ]
+            }
+          ],
+          "dataFlow": "Client → API → DB"
+        },
+        "implementationPlan": {
+          "phases": [
+            {
+              "name": "Foundation",
+              "tasks": [
+                "Setup",
+                "Auth"
+              ],
+              "estimatedEffort": "3 days"
+            }
+          ]
+        },
+        "taskGraph": {
+          "tasks": [
+            {
+              "id": "t1",
+              "title": "Setup",
+              "description": "Project setup",
+              "dependencies": [],
+              "estimatedEffort": "1 day",
+              "phase": "setup"
+            },
+            {
+              "id": "t2",
+              "title": "Core",
+              "description": "Core features",
+              "dependencies": [
+                "t1"
+              ],
+              "estimatedEffort": "3 days",
+              "phase": "core"
+            }
+          ]
+        },
+        "testStrategy": {
+          "approach": "Test pyramid",
+          "levels": [
+            {
+              "level": "unit",
+              "description": "Unit tests",
+              "coverage": "80%"
+            }
+          ],
+          "environments": [
+            "dev",
+            "staging"
+          ]
+        },
+        "repoImpactMap": {
+          "impacts": [
+            {
+              "path": "/src",
+              "changeType": "create",
+              "description": "New project"
+            }
+          ]
+        }
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.927Z"
+    },
+    {
+      "caseId": "architect-004",
+      "caseName": "Task graph has dependencies",
+      "agentName": "ArchitectAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "architecture": true,
+        "taskGraph": true,
+        "testStrategy": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Task graph present",
+          "passed": true,
+          "evidence": "Field 'taskGraph' is present",
+          "weight": 1
+        },
+        {
+          "description": "Architecture present",
+          "passed": true,
+          "evidence": "Field 'architecture' is present",
+          "weight": 1
+        },
+        {
+          "description": "Repo impact map present",
+          "passed": true,
+          "evidence": "Field 'repoImpactMap' is present",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "architecture": {
+          "overview": "React/TypeScript frontend, Node.js backend",
+          "decisions": [
+            {
+              "id": "ad1",
+              "decision": "React frontend",
+              "rationale": "Team expertise",
+              "alternatives": [
+                "Vue"
+              ]
+            }
+          ],
+          "components": [
+            {
+              "name": "API",
+              "responsibility": "REST API",
+              "dependencies": [
+                "DB"
+              ]
+            }
+          ],
+          "dataFlow": "Client → API → DB"
+        },
+        "implementationPlan": {
+          "phases": [
+            {
+              "name": "Foundation",
+              "tasks": [
+                "Setup",
+                "Auth"
+              ],
+              "estimatedEffort": "3 days"
+            }
+          ]
+        },
+        "taskGraph": {
+          "tasks": [
+            {
+              "id": "t1",
+              "title": "Setup",
+              "description": "Project setup",
+              "dependencies": [],
+              "estimatedEffort": "1 day",
+              "phase": "setup"
+            },
+            {
+              "id": "t2",
+              "title": "Core",
+              "description": "Core features",
+              "dependencies": [
+                "t1"
+              ],
+              "estimatedEffort": "3 days",
+              "phase": "core"
+            }
+          ]
+        },
+        "testStrategy": {
+          "approach": "Test pyramid",
+          "levels": [
+            {
+              "level": "unit",
+              "description": "Unit tests",
+              "coverage": "80%"
+            }
+          ],
+          "environments": [
+            "dev",
+            "staging"
+          ]
+        },
+        "repoImpactMap": {
+          "impacts": [
+            {
+              "path": "/src",
+              "changeType": "create",
+              "description": "New project"
+            }
+          ]
+        }
+      },
+      "durationMs": 1,
+      "timestamp": "2026-04-19T23:20:34.928Z"
+    },
+    {
+      "caseId": "architect-005",
+      "caseName": "NFR requirements influence architecture",
+      "agentName": "ArchitectAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "architecture": true,
+        "implementationPlan": true,
+        "taskGraph": true,
+        "testStrategy": true,
+        "repoImpactMap": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Architecture addresses NFRs",
+          "passed": true,
+          "evidence": "Field 'architecture' is present",
+          "weight": 1
+        },
+        {
+          "description": "All sub-artifacts present",
+          "passed": true,
+          "evidence": "Field 'taskGraph' is present",
+          "weight": 1
+        },
+        {
+          "description": "Test strategy covers NFRs",
+          "passed": true,
+          "evidence": "Field 'testStrategy' is present",
+          "weight": 1
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "architecture": {
+          "overview": "React/TypeScript frontend, Node.js backend",
+          "decisions": [
+            {
+              "id": "ad1",
+              "decision": "React frontend",
+              "rationale": "Team expertise",
+              "alternatives": [
+                "Vue"
+              ]
+            }
+          ],
+          "components": [
+            {
+              "name": "API",
+              "responsibility": "REST API",
+              "dependencies": [
+                "DB"
+              ]
+            }
+          ],
+          "dataFlow": "Client → API → DB"
+        },
+        "implementationPlan": {
+          "phases": [
+            {
+              "name": "Foundation",
+              "tasks": [
+                "Setup",
+                "Auth"
+              ],
+              "estimatedEffort": "3 days"
+            }
+          ]
+        },
+        "taskGraph": {
+          "tasks": [
+            {
+              "id": "t1",
+              "title": "Setup",
+              "description": "Project setup",
+              "dependencies": [],
+              "estimatedEffort": "1 day",
+              "phase": "setup"
+            },
+            {
+              "id": "t2",
+              "title": "Core",
+              "description": "Core features",
+              "dependencies": [
+                "t1"
+              ],
+              "estimatedEffort": "3 days",
+              "phase": "core"
+            }
+          ]
+        },
+        "testStrategy": {
+          "approach": "Test pyramid",
+          "levels": [
+            {
+              "level": "unit",
+              "description": "Unit tests",
+              "coverage": "80%"
+            }
+          ],
+          "environments": [
+            "dev",
+            "staging"
+          ]
+        },
+        "repoImpactMap": {
+          "impacts": [
+            {
+              "path": "/src",
+              "changeType": "create",
+              "description": "New project"
+            }
+          ]
+        }
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.928Z"
+    },
+    {
+      "caseId": "dev-001",
+      "caseName": "Standard task produces execution result",
+      "agentName": "DevAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "summary": true,
+        "changes": true,
+        "testResults": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Summary is non-empty",
+          "passed": true,
+          "evidence": "Field 'summary' is a non-empty string",
+          "weight": 1
+        },
+        {
+          "description": "Changes array is non-empty",
+          "passed": true,
+          "evidence": "Field 'changes' has 1 items",
+          "weight": 1
+        },
+        {
+          "description": "Test results present",
+          "passed": true,
+          "evidence": "Field 'testResults' has 1 items",
+          "weight": 1
+        },
+        {
+          "description": "At least one change listed",
+          "passed": true,
+          "evidence": "Field 'changes' has 1 items >= 1",
+          "weight": 1
+        },
+        {
+          "description": "Test results include pass/fail status",
+          "passed": true,
+          "evidence": "Field 'testResults' has 1 items",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "taskId": "t1",
+        "changes": [
+          {
+            "path": "src/index.ts",
+            "changeType": "create",
+            "description": "Entry point",
+            "diff": "+export {}"
+          }
+        ],
+        "summary": "Implemented task",
+        "testResults": [
+          {
+            "testName": "test1",
+            "status": "pass"
+          }
+        ]
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.928Z"
+    },
+    {
+      "caseId": "dev-002",
+      "caseName": "Dev result includes file paths",
+      "agentName": "DevAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "summary": true,
+        "changes": true,
+        "testResults": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Changes array present",
+          "passed": true,
+          "evidence": "Field 'changes' has 1 items",
+          "weight": 1
+        },
+        {
+          "description": "Summary present",
+          "passed": true,
+          "evidence": "Field 'summary' is a non-empty string",
+          "weight": 1
+        },
+        {
+          "description": "Test results present",
+          "passed": true,
+          "evidence": "Field 'testResults' has 1 items",
+          "weight": 1
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "taskId": "t1",
+        "changes": [
+          {
+            "path": "src/index.ts",
+            "changeType": "create",
+            "description": "Entry point",
+            "diff": "+export {}"
+          }
+        ],
+        "summary": "Implemented task",
+        "testResults": [
+          {
+            "testName": "test1",
+            "status": "pass"
+          }
+        ]
+      },
+      "durationMs": 1,
+      "timestamp": "2026-04-19T23:20:34.929Z"
+    },
+    {
+      "caseId": "dev-003",
+      "caseName": "API endpoint task produces structured changes",
+      "agentName": "DevAgent",
+      "grade": "partial",
+      "score": 0.7,
+      "requiredFieldsPresent": {
+        "summary": true,
+        "changes": true,
+        "testResults": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Summary describes API changes",
+          "passed": true,
+          "evidence": "Field 'summary' is present",
+          "weight": 1
+        },
+        {
+          "description": "Changes include file paths",
+          "passed": true,
+          "evidence": "Field 'changes' has 1 items",
+          "weight": 1
+        },
+        {
+          "description": "Test results present",
+          "passed": true,
+          "evidence": "Field 'testResults' has 1 items",
+          "weight": 1
+        },
+        {
+          "description": "Multiple changes listed",
+          "passed": false,
+          "evidence": "Field 'changes' has 1 items < 2",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "taskId": "t1",
+        "changes": [
+          {
+            "path": "src/index.ts",
+            "changeType": "create",
+            "description": "Entry point",
+            "diff": "+export {}"
+          }
+        ],
+        "summary": "Implemented task",
+        "testResults": [
+          {
+            "testName": "test1",
+            "status": "pass"
+          }
+        ]
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.929Z"
+    },
+    {
+      "caseId": "dev-004",
+      "caseName": "Database task includes schema changes",
+      "agentName": "DevAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "summary": true,
+        "changes": true,
+        "testResults": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Summary is non-empty",
+          "passed": true,
+          "evidence": "Field 'summary' is a non-empty string",
+          "weight": 1
+        },
+        {
+          "description": "Changes are listed",
+          "passed": true,
+          "evidence": "Field 'changes' has 1 items",
+          "weight": 1
+        },
+        {
+          "description": "Test results exist",
+          "passed": true,
+          "evidence": "Field 'testResults' has 1 items",
+          "weight": 1
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "taskId": "t1",
+        "changes": [
+          {
+            "path": "src/index.ts",
+            "changeType": "create",
+            "description": "Entry point",
+            "diff": "+export {}"
+          }
+        ],
+        "summary": "Implemented task",
+        "testResults": [
+          {
+            "testName": "test1",
+            "status": "pass"
+          }
+        ]
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.929Z"
+    },
+    {
+      "caseId": "dev-005",
+      "caseName": "Frontend task produces component changes",
+      "agentName": "DevAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "summary": true,
+        "changes": true,
+        "testResults": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "Summary present",
+          "passed": true,
+          "evidence": "Field 'summary' is a non-empty string",
+          "weight": 1
+        },
+        {
+          "description": "Changes listed",
+          "passed": true,
+          "evidence": "Field 'changes' has 1 items",
+          "weight": 1
+        },
+        {
+          "description": "Test results present",
+          "passed": true,
+          "evidence": "Field 'testResults' has 1 items",
+          "weight": 1
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "taskId": "t1",
+        "changes": [
+          {
+            "path": "src/index.ts",
+            "changeType": "create",
+            "description": "Entry point",
+            "diff": "+export {}"
+          }
+        ],
+        "summary": "Implemented task",
+        "testResults": [
+          {
+            "testName": "test1",
+            "status": "pass"
+          }
+        ]
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.929Z"
+    },
+    {
+      "caseId": "qa-001",
+      "caseName": "Passing dev result produces pass report",
+      "agentName": "QaAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "qaReport": true,
+        "acMatrix": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "QA report present",
+          "passed": true,
+          "evidence": "Field 'qaReport' is present",
+          "weight": 1
+        },
+        {
+          "description": "AC matrix present",
+          "passed": true,
+          "evidence": "Field 'acMatrix' is present",
+          "weight": 1
+        },
+        {
+          "description": "QA report has overall status",
+          "passed": true,
+          "evidence": "Field 'qaReport' is present",
+          "weight": 0.8
+        },
+        {
+          "description": "AC results present",
+          "passed": true,
+          "evidence": "Custom check: custom:check_qaReport_acResults (auto-passed)",
+          "weight": 0.8
+        },
+        {
+          "description": "Summary present",
+          "passed": true,
+          "evidence": "Custom check: custom:check_qaReport_summary (auto-passed)",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "qaReport": {
+          "overallStatus": "pass",
+          "acResults": [
+            {
+              "acId": "ac1",
+              "status": "pass",
+              "evidence": "Verified"
+            }
+          ],
+          "defects": [],
+          "summary": "All tests passed"
+        },
+        "acMatrix": {
+          "criteria": [
+            {
+              "acId": "ac1",
+              "requirementId": "req1",
+              "description": "Test",
+              "status": "pass",
+              "evidence": "Verified"
+            }
+          ]
+        }
+      },
+      "durationMs": 1,
+      "timestamp": "2026-04-19T23:20:34.930Z"
+    },
+    {
+      "caseId": "qa-002",
+      "caseName": "QA report includes AC results for each criterion",
+      "agentName": "QaAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "qaReport": true,
+        "acMatrix": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "QA report has AC results",
+          "passed": true,
+          "evidence": "Field 'qaReport' is present",
+          "weight": 1
+        },
+        {
+          "description": "AC matrix has criteria",
+          "passed": true,
+          "evidence": "Field 'acMatrix' is present",
+          "weight": 1
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "qaReport": {
+          "overallStatus": "pass",
+          "acResults": [
+            {
+              "acId": "ac1",
+              "status": "pass",
+              "evidence": "Verified"
+            }
+          ],
+          "defects": [],
+          "summary": "All tests passed"
+        },
+        "acMatrix": {
+          "criteria": [
+            {
+              "acId": "ac1",
+              "requirementId": "req1",
+              "description": "Test",
+              "status": "pass",
+              "evidence": "Verified"
+            }
+          ]
+        }
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.930Z"
+    },
+    {
+      "caseId": "qa-003",
+      "caseName": "Failed dev result produces fail report with defects",
+      "agentName": "QaAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "qaReport": true,
+        "acMatrix": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "QA report has AC results",
+          "passed": true,
+          "evidence": "Field 'qaReport' is present",
+          "weight": 1
+        },
+        {
+          "description": "AC matrix has criteria",
+          "passed": true,
+          "evidence": "Field 'acMatrix' is present",
+          "weight": 1
+        },
+        {
+          "description": "Defects listed when failures",
+          "passed": true,
+          "evidence": "Custom check: custom:check_qaReport_defects_or_fail_status (auto-passed)",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "qaReport": {
+          "overallStatus": "pass",
+          "acResults": [
+            {
+              "acId": "ac1",
+              "status": "pass",
+              "evidence": "Verified"
+            }
+          ],
+          "defects": [],
+          "summary": "All tests passed"
+        },
+        "acMatrix": {
+          "criteria": [
+            {
+              "acId": "ac1",
+              "requirementId": "req1",
+              "description": "Test",
+              "status": "pass",
+              "evidence": "Verified"
+            }
+          ]
+        }
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.930Z"
+    },
+    {
+      "caseId": "qa-004",
+      "caseName": "QA report severity levels are valid",
+      "agentName": "QaAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "qaReport": true,
+        "acMatrix": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "QA report present",
+          "passed": true,
+          "evidence": "Field 'qaReport' is present",
+          "weight": 1
+        },
+        {
+          "description": "AC matrix present",
+          "passed": true,
+          "evidence": "Field 'acMatrix' is present",
+          "weight": 1
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "qaReport": {
+          "overallStatus": "pass",
+          "acResults": [
+            {
+              "acId": "ac1",
+              "status": "pass",
+              "evidence": "Verified"
+            }
+          ],
+          "defects": [],
+          "summary": "All tests passed"
+        },
+        "acMatrix": {
+          "criteria": [
+            {
+              "acId": "ac1",
+              "requirementId": "req1",
+              "description": "Test",
+              "status": "pass",
+              "evidence": "Verified"
+            }
+          ]
+        }
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.930Z"
+    },
+    {
+      "caseId": "qa-005",
+      "caseName": "Multiple AC criteria mapped to requirements",
+      "agentName": "QaAgent",
+      "grade": "pass",
+      "score": 1,
+      "requiredFieldsPresent": {
+        "qaReport": true,
+        "acMatrix": true
+      },
+      "qualityCheckResults": [
+        {
+          "description": "QA report present",
+          "passed": true,
+          "evidence": "Field 'qaReport' is present",
+          "weight": 1
+        },
+        {
+          "description": "AC matrix has criteria mapping",
+          "passed": true,
+          "evidence": "Field 'acMatrix' is present",
+          "weight": 1
+        },
+        {
+          "description": "Summary present",
+          "passed": true,
+          "evidence": "Custom check: custom:check_qaReport_summary (auto-passed)",
+          "weight": 0.8
+        }
+      ],
+      "schemaConformance": {
+        "passed": true,
+        "errors": []
+      },
+      "output": {
+        "qaReport": {
+          "overallStatus": "pass",
+          "acResults": [
+            {
+              "acId": "ac1",
+              "status": "pass",
+              "evidence": "Verified"
+            }
+          ],
+          "defects": [],
+          "summary": "All tests passed"
+        },
+        "acMatrix": {
+          "criteria": [
+            {
+              "acId": "ac1",
+              "requirementId": "req1",
+              "description": "Test",
+              "status": "pass",
+              "evidence": "Verified"
+            }
+          ]
+        }
+      },
+      "durationMs": 0,
+      "timestamp": "2026-04-19T23:20:34.930Z"
+    }
+  ],
+  "summaryByAgent": {
+    "IntakeAgent": {
+      "total": 6,
+      "passed": 6,
+      "averageScore": 1
+    },
+    "RequirementsCriticAgent": {
+      "total": 5,
+      "passed": 2,
+      "averageScore": 0.82
+    },
+    "ArchitectAgent": {
+      "total": 5,
+      "passed": 5,
+      "averageScore": 1
+    },
+    "DevAgent": {
+      "total": 5,
+      "passed": 4,
+      "averageScore": 0.9400000000000001
+    },
+    "QaAgent": {
+      "total": 5,
+      "passed": 5,
+      "averageScore": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@workflow-jk/agents",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rm -rf dist",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@workflow-jk/adapters": "workspace:*",
+    "@workflow-jk/contracts": "workspace:*",
+    "@workflow-jk/domain": "workspace:*",
+    "@workflow-jk/observability": "workspace:*",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.0"
+  }
+}

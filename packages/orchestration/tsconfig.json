@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "paths": {
+      "@workflow-jk/agents": ["../agents/dist"],
+      "@workflow-jk/observability": ["../observability/dist"],
+      "@workflow-jk/config": ["../config/dist"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["src/__tests__"]
+}
