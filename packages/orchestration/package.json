@@ -28,7 +28,7 @@
     "@temporalio/common": "^1.11.0"
   },
   "devDependencies": {
-    "vitest": "^2.1.0",
+    "vitest": "^3.2.6",
     "@temporalio/testing": "^1.11.0",
     "typescript": "^5.3.0"
   }
