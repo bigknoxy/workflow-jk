@@ -23,6 +23,6 @@
     "@workflow-jk/config": "workspace:*"
   },
   "devDependencies": {
-    "vitest": "^2.1.0"
+    "vitest": "^3.2.6"
   }
 }
