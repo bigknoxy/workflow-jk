@@ -24,15 +24,22 @@
     "eval": "bun run --cwd packages/evaluation src/run-eval.ts"
   },
   "devDependencies": {
-    "turbo": "^2.3.0",
-    "typescript": "^5.7.0",
-    "tsx": "^4.19.0",
-    "vitest": "^2.1.0",
-    "@types/node": "^22.10.0",
-    "@eslint/js": "^9.16.0",
-    "eslint": "^9.16.0",
-    "@typescript-eslint/eslint-plugin": "^8.18.0",
-    "@typescript-eslint/parser": "^8.18.0",
-    "typescript-eslint": "^8.18.0"
+    "turbo": "^2.10.12",
+    "typescript": "^7.0.2",
+    "tsx": "^4.23.13",
+    "vitest": "^5.0.0",
+    "@types/node": "^26.5.0",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "@typescript-eslint/eslint-plugin": "^8.70.0",
+    "@typescript-eslint/parser": "^8.70.0",
+    "typescript-eslint": "^8.70.0"
+  },
+  "overrides": {
+    "shell-quote": ">=1.8.3",
+    "vitest": ">=2.1.10",
+    "sharp": ">=0.35.0",
+    "protobufjs": ">=7.6.1",
+    "@grpc/grpc-js": ">=1.13.0"
   }
 }
